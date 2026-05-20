@@ -1,14 +1,13 @@
 {
-  "name": "my-custom-edge-worker",
-  "version": "1.0.4",
-  "description": "A private edge function for handling requests",
+  "name": "edge-service",
+  "version": "1.0.0",
   "private": true,
-  "license": "MIT",
   "scripts": {
-    "build": "echo 'Ready'",
-    "dev": "netlify dev"
+    "dev": "netlify dev",
+    "build": "echo 'Build complete'",
+    "deploy": "netlify deploy --prod"
   },
   "devDependencies": {
-    "netlify-cli": "latest"
+    "netlify-cli": "^17.0.0"
   }
 }
